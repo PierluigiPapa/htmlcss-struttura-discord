@@ -113,5 +113,23 @@ main .container .section-1 {
 }
 
 #section-4 {
-    background-color: lightsalmon;
+    background-color: lightcyan;
+    height: 450px;
+    margin: auto;
+}
+
+#section-4 .container-3 {
+    height: 400px;
+    width: 300px;
+    background-color: lightgreen;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#section-4 .container-4 {
+    height: 400px;
+    width: 1000px;
+    background-color: green;
+    margin-left: 400px;
+    margin-right: 50px;
 }
