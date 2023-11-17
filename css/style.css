@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 html {
@@ -50,7 +50,13 @@ nav {
 
 main {
     background-color: #ED5274;
-    height: 500px;
+    height: 450px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+section {
+    margin: auto;
 }
 
 .container {
@@ -63,8 +69,4 @@ main .container #section-1 {
     height: 400px;
     width: 400px;
     background-color: white;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 } 
