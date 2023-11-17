@@ -103,3 +103,15 @@ main .container .section-1 {
     margin-right: 50px;
     margin-top: 20px;
 }
+
+#section-3 .container-2 .section-grey {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+#section-4 {
+    background-color: lightsalmon;
+}
