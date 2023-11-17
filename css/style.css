@@ -2,23 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
-    border: 1px solid black;
+html {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     background-color: grey;
+    height: 40px;
 }
 
 .flex-right {
     display: flex;
-    flex-flow: wrap row;
+    flex-flow: row;
     background-color: coral;
+    flex-basis: 5%;
+    height: 40px;
 }
 
 .center {
     display: flex;
-    background-color: blue;
+    background-color: lightblue;
+    flex-basis: 90%;
+    height: 40px;
+    justify-content: space-around;
 }
 
 nav {
@@ -32,5 +40,8 @@ nav ul li {
 }
 
 .flex-left {
+    displaY: flex;
     background-color: aquamarine;
+    flex-basis: 5%;
+    height: 40px;
 }
