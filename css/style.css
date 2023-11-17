@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    border: 1px solid black;
+}
+
+header {
+    background-color: grey;
+}
+
+.flex-right {
+    display: flex;
+    flex-flow: wrap row;
+    background-color: coral;
+}
+
+.center {
+    display: flex;
+    background-color: blue;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.flex-left {
+    background-color: aquamarine;
+}
